@@ -1,0 +1,30 @@
+.image-container {
+	text-align: center;
+	/* 使图片居中 */
+	overflow: hidden;
+	/* 确保内容不会溢出容器 */
+}
+
+.rich_pages {
+	width: 100vw;
+	/* 设置图片宽度为视口宽度 */
+	height: auto;
+	/* 自动调整高度以保持比例 */
+	max-width: 100%;
+	/* 确保图片不会超出其容器 */
+	display: block;
+	/* 避免底部出现默认空白间隙 */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.no-underline {
+	text-decoration: none;
+}
+
+.rich_media_title {
+	font-size: 22px;
+	line_height: 1.4;
+	margin-bottom: 14px;
+	font_weight: 500;
+}
