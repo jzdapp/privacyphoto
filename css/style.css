@@ -41,8 +41,6 @@ a:active {
 	font_weight: 500;
 }
 
-
-
 *, :before, :after {
     box-sizing: border-box;
     border-width: 0;
@@ -67,7 +65,7 @@ html {
 
 body {
     margin: 10;
-    line-height:inherit
+    line-height:1.6;
 }
 
 hr {
