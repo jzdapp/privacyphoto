@@ -1,59 +1,77 @@
 body {
-/*    font-size: 17px;
+	/*    font-size: 17px;
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; */
-    background-color: #fff;
-    color: #1d1d1f;
-    font-style:normal
+	background-color: #fff;
+	color: #1d1d1f;
+	font-style: normal
 }
+
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color:#000
-    }
+	body {
+		background-color: #000
+	}
 
-    body, body h1, body h2, body h3, body h4, body h5, body h6 {
-        color:#f5f5f7
-    }
+	body,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body h5,
+	body h6 {
+		color: #f5f5f7
+	}
 
-    body .link, body a {
-        color:#2997ff
-    }
+	body .link,
+	body a.no-underline {
+		color: #2997ff
+	}
+	
+	body a.custom_style {
+		color: #f5f5f7
+	}
 
-    body .footnote a {
-        color:inherit
-    }
+	body .footnote a {
+		color: inherit
+	}
 
-    body .footnote a:hover {
-        color:#2997ff
-    }
+	body .footnote a:hover {
+		color: #2997ff
+	}
 
-    body #preview-bar .country-select {
-        background-color: #000;
-        color: #f5f5f7;
-        border-color:#424245
-    }
+	body #preview-bar .country-select {
+		background-color: #000;
+		color: #f5f5f7;
+		border-color: #424245
+	}
 
-    body #preview-bar .country-select h1, body #preview-bar .country-select h2, body #preview-bar .country-select h3, body #preview-bar .country-select h4, body #preview-bar .country-select h5, body #preview-bar .country-select h6 {
-        color:#f5f5f7
-    }
+	body #preview-bar .country-select h1,
+	body #preview-bar .country-select h2,
+	body #preview-bar .country-select h3,
+	body #preview-bar .country-select h4,
+	body #preview-bar .country-select h5,
+	body #preview-bar .country-select h6 {
+		color: #f5f5f7
+	}
 
-    body #preview-bar .country-select .link, body #preview-bar .country-select a {
-        color:#2997ff
-    }
+	body #preview-bar .country-select .link,
+	body #preview-bar .country-select a {
+		color: #2997ff
+	}
 
-    body #preview-bar .country-select .footnote a {
-        color:inherit
-    }
+	body #preview-bar .country-select .footnote a {
+		color: inherit
+	}
 
-    body #preview-bar .country-select .footnote a:hover {
-        color:#2997ff
-    }
+	body #preview-bar .country-select .footnote a:hover {
+		color: #2997ff
+	}
 
-    body #preview-bar .ac-preview-breadcrumbs-home-icon {
-        color:#fff
-    }
+	body #preview-bar .ac-preview-breadcrumbs-home-icon {
+		color: #fff
+	}
 }
 
 .rich_pages {
@@ -72,8 +90,12 @@ body {
 	border-radius: 5px;
 }
 
-a {
+a.no-underline {
 	color: #0066cc
+}
+
+a.custom_style {
+	color: #000
 }
 
 a:link,
@@ -93,7 +115,7 @@ a:active {
 	font-size: 22px;
 	line_height: 1.4;
 	margin-bottom: 14px;
-	font_weight: 500;
+	font_weight: 700;
 }
 
 *,
@@ -269,6 +291,7 @@ legend {
 ol,
 ul {
 	margin-left: 0;
+	margin-top: 6px;
 	padding: 0;
 }
 
